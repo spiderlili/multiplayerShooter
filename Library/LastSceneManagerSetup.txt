@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/jtan1/Downloads/SavePoint102/Assets/Main.unity
+- path: Assets/Standard Assets/Scenes/main.unity
   isLoaded: 1
   isActive: 1

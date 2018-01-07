@@ -293,6 +293,12 @@
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\scripts\PlayerController.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\scripts\playerMovement.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\scripts\screenPointUtility.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
