@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 //ensure components exist at all time for the player
 [RequireComponent(typeof(PlayerShoot))]
