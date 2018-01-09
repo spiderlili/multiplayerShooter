@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 //controls how tank shoots projectiles
 
-public class PlayerShoot : MonoBehaviour {
+public class PlayerShoot : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
