@@ -12,7 +12,7 @@ using UnityEngine.Networking;
 [RequireComponent(typeof(playerMovement))]
 [RequireComponent(typeof(PlayerSetup))]
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : NetworkBehaviour {
 
     PlayerHealth m_playerHealth;
     playerMovement m_playerMovement;
