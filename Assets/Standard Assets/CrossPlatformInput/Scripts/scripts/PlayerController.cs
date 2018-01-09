@@ -38,14 +38,20 @@ public class PlayerController : NetworkBehaviour {
 
     //invoke the the playerMovement's MovePlayer method inside fixedUpdate since using rigidbody.velocity
     void FixedUpdate()
-    {
+    {//ignore input if not the local player for this client
+        if(!isLocalPlayer){
+            return;
+        }
         Vector3 inputDirection = GetInput();
         m_playerMovement.MovePlayer(inputDirection); //invoke 
     }
 
     // Update is called once per frame
     void Update()
-    {
+    { //ignore input if not the local player for this client
+        if(!isLocalPlayer){
+            return;
+        }
         //rotate the chassis to the input direction
         //rotate the turret to the mouse pointer
         //translate the tank forward towards the front of the chassis
