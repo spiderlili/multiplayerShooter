@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 [RequireComponent(typeof(Rigidbody))]
 
 //responsible for moving the player to drive the tank's rotating parts
-public class playerMovement : MonoBehaviour {
+public class playerMovement : NetworkBehaviour {
     Rigidbody m_rigidbody; //cache a reference to rigidbody => enable game objects to interact with physics.
     public Transform m_chassis;
     public Transform m_turret;
