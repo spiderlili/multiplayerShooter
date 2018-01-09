@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
+//TODO: ADD NETWORK TRANSFORM TO PLAYER! SYNC RIGIDBODY 3D, SET ROTATION AXIS TO NONE TO SAVE DATA TRANSMITTED
 //handling input and manage the other components 
 //freeze rigidbody Yposition and all rotation 
 
