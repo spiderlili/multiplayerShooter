@@ -10,7 +10,7 @@ using UnityEngine.Networking;
 [RequireComponent(typeof(PlayerSetup))]
 
 //tracks player name, id, colour etc for networking
-public class PlayerSetup : MonoBehaviour {
+public class PlayerSetup : NetworkBehaviour {
 
     PlayerHealth m_playerHealth;
     playerMovement m_playerMovement;
