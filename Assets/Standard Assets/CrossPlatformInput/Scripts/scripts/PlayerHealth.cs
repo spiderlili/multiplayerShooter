@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 //tracks player health and damage
-public class PlayerHealth : MonoBehaviour {
+public class PlayerHealth : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
